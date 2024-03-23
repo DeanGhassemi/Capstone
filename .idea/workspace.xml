@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12674c7e-12a1-41b2-972f-054a8f4fb0f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Frontend/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/svelte.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="12674c7e-12a1-41b2-972f-054a8f4fb0f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +35,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/danom/OneDrive/Documents/GitHub/Capstone",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -63,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711217435770</updated>
       <workItem from="1711217436907" duration="209000" />
-      <workItem from="1711217661997" duration="1632000" />
+      <workItem from="1711217661997" duration="1953000" />
     </task>
     <servers />
   </component>
