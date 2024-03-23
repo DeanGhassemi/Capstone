@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'monte': ['Montserrat', 'sans-serif'] // Add your font name and fallbacks
+      }
+    },
   },
   plugins: [],
 }
