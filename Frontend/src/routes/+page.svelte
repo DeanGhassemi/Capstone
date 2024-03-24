@@ -5,14 +5,15 @@
 
 </style>
 
-<main>
+<main class="">
     <header>
 
     </header>
     <div>
-        <h1 class="font-monte text-7xl">
-            test
-        </h1>
+        <div>
+            <h1 class="font-monte text-7xl text-white">Flirting is Hard</h1>
+            <h1 class="font-monte text-7xl text-white">Become The Ultimate Seducer</h1>
+        </div>
     </div>
     <footer>
 
