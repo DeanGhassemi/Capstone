@@ -12,6 +12,9 @@ export default {
         'regalia': '#522D80',
         'coral': '#FF7F5C'
       },
+      keyframes: {
+
+      },
     },
   },
   plugins: [],

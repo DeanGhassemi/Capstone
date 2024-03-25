@@ -1,5 +1,7 @@
+import { importAssets } from 'svelte-preprocess-import-assets';
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -8,7 +10,11 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter()
 	},
-	preprocess: vitePreprocess()
+	// Update the preprocess configuration here
+	preprocess: [
+		vitePreprocess(), // Existing preprocess for Vite specific enhancements
+		importAssets() // Add importAssets to enable asset imports in your Svelte components
+	]
 };
 
 export default config;
