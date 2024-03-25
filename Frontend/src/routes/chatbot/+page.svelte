@@ -2,20 +2,29 @@
     /* Custom CSS for black outline on the right side of the sidebar */
     .sidebar {
         border-right: 2px solid black;
+        background-color: #422768;
     }
 
     /* Apply background color to the entire page */
     .background {
-        background-color: #1E1E1E;
+        background-color: #343434;
         height: 100vh;
         display: flex;
     }
     .sideBtns{
         border-radius: 20px;
-        background-color: #422768;
     }
+    .previousChats{
+        border-radius: 10px;
+    }
+    .previousChats:hover{
+        background-color: 9B7BCC;
+        opacity: 50%;
+    }
+    .previousChatsLabel{
+        color:#A4A2A2;
 
-
+    }
 
     /* Chat container */
         .chat-container {
@@ -60,31 +69,37 @@
             cursor: pointer;
         }
 </style>
-<div class="background">
-    <!-- Left Sidebar -->
-    <div class="flex-none w-42 bg-purple-800 text-white sidebar">
-        <div class="flex flex-col justify-between h-full p-4">
-            <!-- Home Button -->
-            <button class="sideBtns w-36 h-14 bg-white mb-4">Home</button>
-            
-            <!-- Learn Routes Button -->
-            <button class="sideBtns w-36 h-14 bg-white mb-4">Learn Routes</button>
-            
-            <!-- Settings Button -->
-            <button class="sideBtns w-36 h-14 bg-white">Settings</button>
-        </div>
-    </div>
-
-    <!-- Main Content Area -->
-    <div class="flex-grow">
-        <div class="chat-container">
-            <div class="chat-messages">
-                <!-- Chat messages will be displayed here -->
-            </div>
-            <div class="chat-input-container">
-                <input type="text" class="chat-input" placeholder="Type your message...">
-                <button class="send-button">Send</button>
+    <main class="background">
+        <!-- Left Sidebar -->
+        <div class="flex-none w-42 text-white sidebar">
+            <div class="flex flex-col h-full p-4">
+                <!-- Home Button -->
+                <button class="sideBtns w-36 h-14 mb-4 bg-purple-800">Home</button>
+                
+                <!-- Learn Routes Button -->
+                <button class="sideBtns w-36 h-14 mb-4 bg-purple-800">Learn Routes</button>
+                
+                <!-- Settings Button -->
+                <button class="sideBtns w-36 h-14 bg-purple-800">Settings</button>
+                <hr class="my-2">
+                <label class="previousChatsLabel text-center mt-5">Previous chats</label>
+                <button class="previousChats mt-2">Demo history</button>
+                <button class="previousChats mt-2">Demo history</button>
             </div>
         </div>
-    </div>
-</div>
+        <!-- Main Content Area -->
+        <div class="flex flex-grow flex-row">
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <!-- Chat messages will be displayed here -->
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" class="chat-input" placeholder="Type your message...">
+                    <button class="send-button">Send</button>
+                </div>
+            </div>
+            <div class="text-left justify-center items-center mx-10">
+                <button class="send-button">Advanced Options</button>
+            </div>
+        </div>
+    </main>
